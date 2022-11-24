@@ -30,6 +30,13 @@ Version: 2022.18.2
 Publisher: Microsoft
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 
+Name: Djaneiro - Django Snippets
+Id: thebarkman.vscode-djaneiro
+Description: A collection of snippets for django templates, models, views, fields & forms. Ported from Djaneiro for SublimeText
+Version: 1.4.2
+Publisher: Scott Barkman
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=thebarkman.vscode-djaneiro
+
 .
 .
 .
