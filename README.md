@@ -68,7 +68,9 @@ Output to:
      # Windows
      py -3 -m venv .venv
      .venv\scripts\activate
-
+     
+Interpreter auswählen
+& "c:/Users/q506869/OneDrive - BMW Group/Dokumente/07_Programmieren/02_Python/Django/.venv/Scripts/Activate.ps1"
 
 3.Open the project folder in VS Code by running code .
 
