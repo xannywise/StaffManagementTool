@@ -54,7 +54,7 @@ Output to:
 
 1.On your file system, create a project folder for this tutorial, such as hello_django.
 
-2.In that folder, use the following command to create a virtual environment named .venv based on your current interpreter:
+2.In that folder create a folder called ".gitignore", use the following command to create a virtual environment named venv based on your current interpreter:
 
      # Linux
      sudo apt-get install python3-venv    # If needed
@@ -66,8 +66,13 @@ Output to:
      source .venv/bin/activate
 
      # Windows
-     py -3 -m venv .venv
-     .venv\scripts\activate
+     py -m venv .gitignore\venv
+     
+     In powershell use:
+     
+     set-executionpolicy remotesigned, followed by J
+     
+     to activate the scripts use &'<path of python.exe>'
      
 Interpreter auswählen
 & "c:/Users/q506869/OneDrive - BMW Group/Dokumente/07_Programmieren/02_Python/Django/.venv/Scripts/Activate.ps1"
