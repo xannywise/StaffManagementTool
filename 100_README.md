@@ -1,4 +1,4 @@
--------------- Test READ ME for Web App (Staff Management Tool) --------------
+-------------- READ ME for Web App (Staff Management Tool) --------------
 
 -------------------------- Requirements: --------------------------------
 
