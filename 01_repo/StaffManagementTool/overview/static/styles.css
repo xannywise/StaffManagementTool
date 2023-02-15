@@ -1,6 +1,6 @@
 .container{
-    color: red;
     border: 2px solid black;
+    margin-top: 5px
 }
 
 .topbar {
@@ -32,6 +32,10 @@
     border: 2px solid black;
 }
 
-table, th, td{
-    border: 1px solid black;
+th {
+    text-align: left;
+}
+
+.interactive {
+    text-align: center;
 }
