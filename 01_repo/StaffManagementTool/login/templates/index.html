@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="de">
   <link rel="stylesheet" href="../static/styles.css">
+
   <head>
-    <link rel="icon" href="../../new_pw/static/bs3.jpg">
-    <title>BS3 - Passwort vergessen</title>
+    <link rel="icon" href="../static/bs3.jpg">
+    <title>BS3 - Login</title>
   </head>
+  
   <body>
-    <p>Hallo Maksim <3</p>
+    <header>
+      <div class="logo logo-primary" style="height: auto;">
+        <img class="logo-item brand" src="../static/bs3.jpg" alt="BS3">
+        
+        <img class="logo-item stadt" src="../static/stadt.png" alt="Stadt Regensburg">
+      </div>
+      
+      <!--<img src="../static//bs3.jpg" alt="BS3">-->
+    </header>
+
+    <form>
+      <h1>BS3 - Login</h1>
+      <label for="vorname">Vorname:</label>
+        <input type="textfeld" id="vorname" name="vorname" required>
+      <br>
+      <label for="nachname">Nachname:</label>
+        <input type="textfeld" id="nachname" name="nachname" required>
+      <br>
+      <label for="klasse">Klasse:</label>
+      <input type="textfeld" id="klasse" name="klasse" required>
+      <br>
+      <input type="submit" value="Login">
+    </form>
+    
   </body>
 </html>
