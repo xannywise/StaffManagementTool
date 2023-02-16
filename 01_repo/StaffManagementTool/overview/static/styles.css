@@ -1,23 +1,46 @@
 .container{
-    border: 2px solid black;
-    margin-top: 5px
+    border: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .topbar {
-    border: 2px solid black;
     position: relative;
     display: flex;
-    justify-content: space-between;
-    padding: 5px 5px 0px 5px;
+    justify-content: flex-start;
+    padding: 5px 5px 5px 5px;
+    margin-top: 25px;
+}
+
+.searchbar {
+    margin-top: 2px;
+    
+}
+
+input {
+    line-height: 22px;
+    border-radius: 4px;
+    background: url("../static/icon_add.png") no-repeat left;
+    background-size: 20px;
+}
+
+input :active {
+    
 }
 
 .selectlist {
     width: 32px;
     height: 32px;
+    margin-left: 16px;
+    flex-grow: 1;
 }
 
 .selectlist select {
     height: 32px;
+    border-radius: 4px;
 }
 
 .icons a {
