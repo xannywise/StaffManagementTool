@@ -1,9 +1,41 @@
 .container{
-    color: red;
     border: 2px solid black;
+    margin-top: 5px
 }
 
 .topbar {
     border: 2px solid black;
+    position: relative;
     display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 0px 5px;
+}
+
+.selectlist {
+    width: 32px;
+    height: 32px;
+}
+
+.selectlist select {
+    height: 32px;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons img{
+    background-color: red;
+}
+
+.overview {
+    border: 2px solid black;
+}
+
+th {
+    text-align: left;
+}
+
+.interactive {
+    text-align: center;
 }
