@@ -1,0 +1,85 @@
+/* Standardschriftart */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+header {
+  position: fixed;  /* fixiere die Position des Headers */
+  top: 0;           /* setze den Header an die obere Kante des Viewports */
+  left: 0;          /* setze den Header an die linke Kante des Viewports */
+  width: 100%;      /* setze die Breite des Headers auf 100% des Viewports */
+  background-color: #dd0000;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-item-schule {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateX(-250px);
+}
+
+.logo-item-stadt{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateX(250px);
+}
+
+/* Formular */
+.anmeldeprozess {
+  max-width: 600px;
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: solid;
+  margin: 80px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+}
+
+.anmeldeprozess h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 5px;
+  text-align: center; /* Zentriere die Überschrift horizontal */
+}
+
+.anmeldeprozess label {
+  display: block;
+  margin-bottom: 5px;
+  margin-right: 200px;
+  font-weight: bold;
+}
+
+.anmeldeprozess input[type="textfeld"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Speichern Button */
+.anmeldeprozess input[type="submit"] {
+  background-color: #ba0000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.anmeldeprozess input[type="submit"]:hover {
+  background-color: #9d0000;
+}

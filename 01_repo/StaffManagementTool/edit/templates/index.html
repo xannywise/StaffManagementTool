@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bearbeiten</title>
+        <link href="../static/styles.css" rel="stylesheet" type="text/css">
+        <script src="js/validation.js"></script>
+    </head>
+    <body class="zf-backgroundBg">
+        <div class="zf-templateWidth">
+            <form action='' name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();' accept-charset='UTF-8' enctype='multipart/form-data' id='form'>
+                <input type="hidden" name="zf_referrer_name" value="">
+                <input type="hidden" name="zf_redirect_url" value="">
+                <input type="hidden" name="zc_gad" value="">
+                <div class="zf-templateWrapper">
+                    <ul class="zf-tempHeadBdr">
+                        <li class="zf-tempHeadContBdr">
+                            <h2 class="zf-frmPic">
+                                <img src="../static/account_circle.png" alt="">
+                            </h2>
+                            <h2 class="zf-frmTitle">
+                                <em>Bearbeiten</em>
+                            </h2>
+                            <p class="zf-frmDesc"></p>
+                            <div class="zf-clearBoth"></div>
+                        </li>
+                    </ul>
+                    <div class="zf-subContWrap zf-topAlign">
+                        <ul>
+                            <li class="zf-tempFrmWrapper zf-name zf-namelarge">
+                                <label class="zf-labelName">Name</label>
+                                <div class="zf-tempContDiv zf-twoType">
+                                    <div class="zf-nameWrapper">
+                                        <span> 
+                                            <input type="text" maxlength="255" name="Name_First" fieldType=7 placeholder="Max"/>
+                                            <label>First</label>
+                                        </span>
+                                        <span> 
+                                            <input type="text" maxlength="255" name="Name_Last" fieldType=7 placeholder="Mustermann"/>
+                                            <label>Last</label>
+                                        </span> 
+                                        <div class="zf-clearBoth"></div>
+                                    </div>
+                                    <p id="Name_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                                </div>
+                                <div class="zf-clearBoth"></div>
+                            </li>
+                            <li class="zf-tempFrmWrapper zf-small">
+                                <label class="zf-labelName">Klasse</label>
+                                <div class="zf-tempContDiv">
+                                    <span>
+                                        <input type="text" name="SingleLine" checktype="c1" value="" maxlength="255" fieldType=1 placeholder="Musterklasse A"/>
+                                    </span>
+                                    <p id="SingleLine_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                                </div>
+                                <div class="zf-clearBoth"></div>
+                            </li>
+                            <li class="zf-tempFrmWrapper zf-small">
+                                <label class="zf-labelName">Kennzeichen</label>
+                                <div class="zf-tempContDiv">
+                                    <span>
+                                        <input type="text" name="SingleLine1" checktype="c1" value="" maxlength="255" fieldType=1 placeholder="M-XX-123"/>
+                                    </span>
+                                    <p id="SingleLine1_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                                </div>
+                                <div class="zf-clearBoth"></div>
+                            </li>
+                            <li class="zf-tempFrmWrapper zf-decesion ">
+                                <div class="zf-tempContDiv">
+                                    <input type="checkbox" checktype="c1" id="DecisionBox" name="DecisionBox"/>
+                                    <label for="DecisionBox" class="zf-labelName">Gesperrt</label>
+                                    <p id="DecisionBox_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                                </div>
+                                <div class="zf-clearBoth"></div>
+                            </li>
+                            <li class="zf-radio zf-tempFrmWrapper zf-oneColumns">
+                                <label class="zf-labelName"></label>
+                                <div class="zf-tempContDiv">
+                                    <div class="zf-overflow">
+                                        <span class="zf-multiAttType">
+                                            <input class="zf-radioBtnType" type="radio" id="Radio_1" name="Radio" checktype="c1" value="Strike&#x20;1">
+                                            <label for="Radio_1" class="zf-radioChoice">Strike&#x20;1</label> 
+                                        </span>
+                                        <span class="zf-multiAttType">
+                                            <input class="zf-radioBtnType" type="radio" id="Radio_2" name="Radio" checktype="c1" value="Strike&#x20;2">
+                                            <label for="Radio_2" class="zf-radioChoice">Strike&#x20;2</label>
+                                        </span>
+                                        <span class="zf-multiAttType">
+                                            <input class="zf-radioBtnType" type="radio" id="Radio_3" name="Radio" checktype="c1" value="Strike&#x20;3">
+                                            <label for="Radio_3" class="zf-radioChoice">Strike&#x20;3</label>
+                                        </span>
+                                        <div class="zf-clearBoth"></div>
+                                    </div>
+                                    <p id="Radio_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                                </div>
+                                <div class="zf-clearBoth"></div>
+                            </li>
+                            <li class="zf-tempFrmWrapper zf-small">
+                                <label class="zf-labelName"> Notizen</label>
+                                <div class="zf-tempContDiv">
+                                    <span>
+                                        <textarea name="MultiLine" checktype="c1" maxlength="200" placeholder="Kommentar..."></textarea>
+                                    </span>
+                                    <p id="MultiLine_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+                                </div>
+                                <div class="zf-clearBoth"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul>
+                        <li class="zf-fmFooter">
+                            <button class="zf-submitColor" >Submit</button> 
+                            <button class="zf-cancelColor" >Cancel</button>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
