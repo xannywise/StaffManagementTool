@@ -1,10 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
     <header>
         <div class="header container">
-            <img src="../static/bs3.jpg" alt="" width="64" height="64">
-            <img src="../static/stadt.png" alt="" width="128" height="64">
+            <img src="{% static 'bs3.jpg' %}" alt="" width="64" height="64">
+            <img src="{% static 'icons/stadt.png' %}" alt="" width="128" height="64">
         </div>
     </header>
 
@@ -22,13 +23,13 @@
             </div>
             <div class="icons">
                 <a href="">
-                    <img src="../static/icon_add.png" alt="icon_add" width="32" height="32">
+                    <img src="../static/icons/icon_add.png" alt="icon_add" width="32" height="32">
                 </a>
                 <a href="">
-                    <img src="../static/icon_trash.png" alt="icon_trash" width="32" height="32">
+                    <img src="../static/icons/icon_trash.png" alt="icon_trash" width="32" height="32">
                 </a>
                 <a href="">
-                    <img src="../static/icon_print.png" alt="icon_print" width="32" height="32">
+                    <img src="../static/icons/icon_print.png" alt="icon_print" width="32" height="32">
                 </a>
             </div>
         </div>
