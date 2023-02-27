@@ -5,7 +5,7 @@
     <header>
         <div class="header container">
             <img src="{% static 'bs3.jpg' %}" alt="" width="64" height="64">
-            <img src="{% static 'images/stadt.png' %}" alt="" width="128" height="64">
+            <img src="{% static 'stadt.png' %}" alt="" width="128" height="64">
         </div>
     </header>
 
@@ -23,13 +23,13 @@
             </div>
             <div class="icons">
                 <a href="">
-                    <img src="../static/icons/icon_add.png" alt="icon_add" width="32" height="32">
+                    <img src="{% static 'icon_add.png' %}" alt="icon_add" width="32" height="32">
                 </a>
                 <a href="">
-                    <img src="../static/icons/icon_trash.png" alt="icon_trash" width="32" height="32">
+                    <img src="{% static 'icon_trash.png' %}" alt="icon_trash" width="32" height="32">
                 </a>
                 <a href="">
-                    <img src="../static/icons/icon_print.png" alt="icon_print" width="32" height="32">
+                    <img src="{% static 'icon_print.png' %}" alt="icon_print" width="32" height="32">
                 </a>
             </div>
         </div>
@@ -38,30 +38,41 @@
                 <tr>
                     <th class="interactive">K</th>
                     <th class="interactive">S</th>
-                    <th>id</th>
-                    <th>vorname</th>
-                    <th>nachname</th>
-                    <th>klasse</th>
+                    <th>ID</th>
+                    <th>Nachname</th>
+                    <th>Vorname</th>
+                    <th>Klasse</th>
                     <th>Kennzeichen</th>
                     <th>Gesperrt?</th>
                     <th>Verwarnung</th>
                     <th>Notizen</th>
                 </tr>
                 <tr>
-                    <td class="interactive">h</td>
-                    <td class="interactive">h</td>
-                    <td>h</td>
-                    <td>h</td>
-                    <td>h</td>
-                    <td>h</td>
-                    <td>h</td>
-                    <td>h</td>
-                    <td>h</td>
-                    <td>h</td>
+                    <td class="interactive"><input type="checkbox" name="select" id=""></td>
+                    <td class="interactive"><a href=""><img src="{% static 'icon_edit.png' %}" alt="icon_edit" width="16" height="16"></a></td>
+                    <td>1</td>
+                    <td>Sylla</td>
+                    <td>Frank</td>
+                    <td>ITAE12D</td>
+                    <td>R-FS-187</td>
+                    <td>Nein</td>
+                    <td>0</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td class="interactive"><input type="checkbox" name="select" id=""></td>
+                    <td class="interactive"><a href=""><img src="{% static 'icon_edit.png' %}" alt="icon_edit" width="16" height="16"></a></td>
+                    <td>2</td>
+                    <td>Hermann</td>
+                    <td>Maksim</td>
+                    <td>ITAE12D</td>
+                    <td>HF-M-777</td>
+                    <td>Ja</td>
+                    <td>3</td>
+                    <td>-</td>
                 </tr>
             </table>
         </div>     
     </body>
-
 
 </html>
