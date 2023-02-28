@@ -1,34 +1,34 @@
 /* Standardschriftart */
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Header */
 header {
   position: fixed;  /* fixiere die Position des Headers */
-  top: 0;           /* setze den Header an die obere Kante des Viewports */
+  top: 5px;           /* setze den Header an die obere Kante des Viewports */
   left: 0;          /* setze den Header an die linke Kante des Viewports */
   width: 100%;      /* setze die Breite des Headers auf 100% des Viewports */
   background-color: #dd0000;
   display: flex;
   justify-content: center;
 }
-  
+
 .logo {
   max-width: 100%;
   height: auto;
 }
-  
+
 .logo-item-schule {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%) translateX(-250px);
+  transform: translateX(-300px);
 }
-  
+
 .logo-item-stadt{
   position: absolute;
   left: 50%;
-  transform: translateX(-50%) translateX(250px);
+  transform: translateX(-100%) translateX(300px);
 }
 
 /* Formular */
@@ -37,7 +37,7 @@ header {
   border-color: #ccc;
   border-width: 1px;
   border-style: solid;
-  margin: 80px auto 0;
+  margin: 85px auto 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -68,6 +68,18 @@ header {
   border-radius: 4px;
   font-size: 16px;
 }
+/* "Passwort vergessen" Button*/
+.forgot-password-link {
+  font-size: 15px;
+  text-align: center;
+  color: #969696;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
 
 /* Speichern Button */
 .anmeldeprozess input[type="submit"] {
@@ -83,4 +95,3 @@ header {
 .anmeldeprozess input[type="submit"]:hover {
   background-color: #9d0000;
 }
-  
