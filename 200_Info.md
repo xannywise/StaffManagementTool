@@ -7,6 +7,8 @@ Nächsten Schritte:
     Zuständigkeit: Maksim
     Rückmeldung: so bald wie möglich
 
+    UPDATE: lokal funktioniert alles nach der Anleitung. SQL CREATE Query habe ich nochmal geupdatet und eine Query für Beispieldaten erstelle ich auch noch.
+
 _______________________________________________________________________________________
 
     2. E-Mail Template erstellen mit JS für Reset Passwort Seite
