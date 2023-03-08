@@ -2,6 +2,7 @@ Nächsten Schritte:
 
     1. tst db erstellen
     Lokal testen docker oder ohne
+    https://www.luis.uni-hannover.de/fileadmin/kurse/material/PostGreSQL/pgAdmin.pdf
 
     Zuständigkeit: Maksim
     Rückmeldung: so bald wie möglich
