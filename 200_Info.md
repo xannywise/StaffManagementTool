@@ -7,7 +7,8 @@ Nächsten Schritte:
     Zuständigkeit: Maksim
     Rückmeldung: so bald wie möglich
 
-    UPDATE: lokal funktioniert alles nach der Anleitung. SQL CREATE Query habe ich nochmal geupdatet und eine Query für Beispieldaten erstelle ich auch noch.
+    UPDATE 08.03.23: lokal funktioniert alles nach der Anleitung. SQL CREATE Query habe ich nochmal geupdatet und eine Query für Beispieldaten erstelle ich auch noch.
+    UPDATE 08.03.23: Wir müssen nochmal über die Tabelle gehen, keine Ahnung ob das alles überhaupt Sinn macht mit den Spalten, die die gemacht haben lol
 
 _______________________________________________________________________________________
 
