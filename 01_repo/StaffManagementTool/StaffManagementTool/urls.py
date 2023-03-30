@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', include("overview.urls")),
     path('new-password/', include("new_pw.urls")),
+    path('login/', include("login.urls")),
 ]

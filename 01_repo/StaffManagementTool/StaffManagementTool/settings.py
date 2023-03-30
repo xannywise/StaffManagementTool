@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'overview',
     'new_pw',
+    'login',
 ]
 
 MIDDLEWARE = [
