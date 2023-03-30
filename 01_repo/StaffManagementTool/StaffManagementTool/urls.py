@@ -21,4 +21,5 @@ urlpatterns = [
     path('home/', include("overview.urls")),
     path('new-password/', include("new_pw.urls")),
     path('login/', include("login.urls")),
+    path('api-auth/', include('rest_framework.urls')),
 ]
